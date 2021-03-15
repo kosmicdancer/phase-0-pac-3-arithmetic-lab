@@ -22,16 +22,18 @@ function decrement(n) {
     return (n-=1)
 }
 
-function parceInt(string, base10) {
-    return (number);
-}
+// function parseInt(string, base10) {
+//     return (number);
+// }
 
-function parseFloat(string) {
-    return (number);
-}
+// function parseFloat(string) {
+//     return (number);
+// }
 
 function makeInt(string) {
-    return number = (parceInt(string, base10))
+    return parseInt(string, 10)
+    
+    
 }
 
 function preserveDecimal(string) {
